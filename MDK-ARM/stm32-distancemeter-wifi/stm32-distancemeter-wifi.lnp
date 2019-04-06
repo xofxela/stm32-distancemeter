@@ -7,7 +7,6 @@
 "stm32-distancemeter-wifi\usbd_cdc_if.o"
 "stm32-distancemeter-wifi\stm32f0xx_it.o"
 "stm32-distancemeter-wifi\stm32f0xx_hal_msp.o"
-"stm32-distancemeter-wifi\callback.o"
 "stm32-distancemeter-wifi\stm32f0xx_hal_pcd.o"
 "stm32-distancemeter-wifi\stm32f0xx_hal_pcd_ex.o"
 "stm32-distancemeter-wifi\stm32f0xx_hal_spi.o"
@@ -32,6 +31,6 @@
 "stm32-distancemeter-wifi\usbd_ioreq.o"
 "stm32-distancemeter-wifi\usbd_cdc.o"
 --library_type=microlib --strict --scatter "stm32-distancemeter-wifi\stm32-distancemeter-wifi.sct"
---summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list "stm32-distancemeter-wifi.map" -o stm32-distancemeter-wifi\stm32-distancemeter-wifi.axf

@@ -3,6 +3,7 @@ stm32-distancemeter-wifi\callback.o: ../Inc/callback.h
 stm32-distancemeter-wifi\callback.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h
 stm32-distancemeter-wifi\callback.o: ../Inc/stm32f0xx_hal_conf.h
 stm32-distancemeter-wifi\callback.o: ../Inc/main.h
+stm32-distancemeter-wifi\callback.o: ../Inc/callback.h
 stm32-distancemeter-wifi\callback.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h
 stm32-distancemeter-wifi\callback.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h
 stm32-distancemeter-wifi\callback.o: ../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h
